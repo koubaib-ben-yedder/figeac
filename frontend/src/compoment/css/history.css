@@ -1,0 +1,197 @@
+.history-content{
+
+        position:fixed;
+        bottom: 30px;
+        right: 113px;
+        display: flex;
+        height: 30px;
+        width: 500px;
+        justify-content: space-between;
+        gap:10px;
+ 
+
+
+}
+
+@keyframes anim {
+
+    0%{
+        transform: translateX(150%);
+    }
+
+    50%{
+        transform: translateX(0%);
+    }
+
+
+  
+    100%{
+        transform: translateX(500%);
+  
+
+
+    }
+  
+   
+}
+
+
+@keyframes view {
+
+    0%{
+        transform: translateX(150%);
+    }
+
+    100%{
+        transform: translateX(0%);
+    }
+
+
+  
+    
+  
+   
+}
+@keyframes back{
+
+    0%{
+        transform: translateX(0%);
+    }
+
+    100%{
+        transform: translateX(400%);
+    }
+
+
+  
+    
+  
+   
+}
+.content-parent{
+
+   
+    width: 531px;
+    height:458px;
+    margin: 0px 0px 0px 0px;
+
+
+    position:fixed;
+    bottom: 70px;
+    right: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 1;
+    overflow-y: scroll;
+
+   
+
+  
+}
+
+.content-data{
+    margin: 100px 50px 0px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
+.history-title-1{
+
+    grid-area: c;
+    color:gray;
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+.card-content-1{
+
+    color:gray;
+  
+    grid-area: a;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.card-content-2{
+    color:gray;
+    grid-area: b;
+  
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+.card_history{
+
+
+    width:fit-content;
+    height:fit-content;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    animation: anim 3s both;
+
+ 
+}
+
+.modal-dialog{
+
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+    
+.img-history{
+    
+    width: 400px;
+    height: 300px;
+  
+  
+
+ 
+}
+
+
+
+.card-history-content{
+    
+    margin: 10px 30px 10px 30px;
+    box-shadow: 4px 3px 1000px gray;
+    border-style: outset;
+    width: 408px;
+    height: 700px;
+
+
+
+
+}
+
+.card_history-view{
+
+
+    width:fit-content;
+    height:fit-content;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    animation: view 3s both;
+  
+ 
+}
+
+.back{
+
+
+    width: fit-content;
+    height:fit-content;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    animation: back 3s both;
+
+   
+
+}

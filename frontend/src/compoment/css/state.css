@@ -1,0 +1,64 @@
+.card-image{
+    height:350px;
+    width:400px;
+
+}
+.card-parent{
+
+
+ 
+    
+  
+    margin: 100px 100px 0px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+   
+
+  
+  
+}
+
+.card{
+
+    width: 400px;
+    height: 500px;
+    margin-top: 20px;
+}
+  
+  
+.title_card{
+ 
+
+ font-family:cursive;
+ margin-top: 20px;
+
+
+}
+.content_body{
+ 
+    padding: 0px 0px 0px 0px;
+}
+.content_card{
+
+
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.link{
+    color:gray;
+}
+.link:visited{
+    color:green;
+}
+.link:active{
+    color: black;
+}
+.link:hover{
+    color:red;
+}

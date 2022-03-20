@@ -1,0 +1,68 @@
+.parent-alert{
+    background-color:	white;
+    
+
+    height: 100px;
+    width: 500px;
+
+    box-shadow: 1px 3px 3px 	rgb(255, 179, 179);
+    border-radius: 10px;
+ 
+    
+}
+
+.content-alert{
+    display: grid;
+    grid-template-columns: 100px  400px;
+    grid-template-rows:  30px  30px  40px;
+    grid-template-areas: 
+    "box-1 box-2"
+    "box-1 box-3"
+    "box-1 box-4";
+    
+  
+
+}
+
+.box-1-alert{
+    
+    height: 100px;
+    grid-area: box-1;
+    background-image: url("../icon/alert.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    border-left: 4px red solid;
+ 
+    
+   
+}
+.box-2-alert{
+
+    grid-area: box-2;
+    font-size:25px;
+ 
+ 
+ 
+}
+
+.box-3-alert{
+
+grid-area: box-3;
+padding-top: 10px;
+
+color:red;
+
+}
+
+.box-4-alert{
+
+    grid-area: box-4;
+
+    color:gray;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+
+    
+}
+    
